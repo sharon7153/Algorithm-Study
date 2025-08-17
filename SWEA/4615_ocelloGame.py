@@ -18,7 +18,7 @@ for t in range(1, T+1):
     dx = [0, 1, 1, 1, 0, -1, -1, -1]
 
     for i in range(M):
-        y, x, color = map(int,input().split())
+        x, y, color = map(int,input().split())
         y_idx, x_idx = y-1, x-1
         board[y_idx][x_idx] = color
         
